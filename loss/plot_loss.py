@@ -1,11 +1,11 @@
 import re
 import matplotlib.pyplot as plt
 
-with open('loss_new.txt', 'w') as f0:
-    with open('loss.txt', 'r') as f1:
-        for line in f1.readlines():
-            if line.startswith('985/985'):
-                f0.write(line)
+# with open('loss_new.txt', 'w') as f0:
+#     with open('loss.txt', 'r') as f1:
+#         for line in f1.readlines():
+#             if line.startswith('985/985'):
+#                 f0.write(line)
 
 def showPlot(plot_epoches, plot_losses, plot_val_losses, i, dataset=None, learning_rate=None, batch_size=None):
     plt.subplot(2,3,i+1)
@@ -26,7 +26,7 @@ def showPlot(plot_epoches, plot_losses, plot_val_losses, i, dataset=None, learni
     return
 
 def plot_loss(i):
-    with open('loss1.txt', 'r') as f2:
+    with open('loss.txt', 'r') as f2:
         epoch = 0
         epoches = []
         losses = []
@@ -46,6 +46,6 @@ def plot_loss(i):
 
     showPlot(epoches, losses, val_losses, i)
     
-# for i in range(6):
-#     plot_loss(i)
-# plt.show()
+for i in range(6):
+    plot_loss(i)
+plt.show()
