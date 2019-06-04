@@ -1,10 +1,10 @@
 # Breast-Cancer-MaskRCNN
-This is a breast cancer diagnosis system based on Mask RCNN with mammography. 
+This is a breast cancer diagnosis system based on Mask RCNN with mammography. Basically, this is an instance segmentation task.
 Given a mammography, the system is supposed to:
 1. locate the masses (object detection)
 2. classify the pathology (malignant/benign) of the masses (image classification)
 3. segment the mass (instance segmentation)   
-Basically, this is an instance segmentation task.   
+   
 
 This is the implementation of my bachelor thesis. The thesis is titled *Breast Cancer Diagnosis Based on Artificial Intelligence with Mammography*.
 In the thesis, I explored different aproaches on mammography segmentation. 
@@ -19,7 +19,7 @@ This code is based on these two repositories: https://github.com/chevyng/Mammo_M
 2. Run `mammography/train.ipynb`.
 
 ## Test
-Run ``mammography/evaluate.ipynb`.
+Run `mammography/evaluate.ipynb`.
 
 ## Finetune
 If you use the model and data provided by this work, you will get 0.7 on mass detection sensitivity and 0.53 on mass segmentation IOU.
