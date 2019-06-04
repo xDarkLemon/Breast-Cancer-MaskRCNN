@@ -5,7 +5,7 @@ Given a mammography, the system is supposed to:
 2. classify the pathology (malignant/benign) of the masses (image classification)
 3. segment the mass (instance segmentation)   
    
-
+An example is: ![avatar]()
 This is the implementation of my bachelor thesis. The thesis is titled *Breast Cancer Diagnosis Based on Artificial Intelligence with Mammography*.
 In the thesis, I explored different aproaches on mammography segmentation. 
 This code is based on these two repositories: https://github.com/chevyng/Mammo_MaskRCNN and https://github.com/matterport/Mask_RCNN
