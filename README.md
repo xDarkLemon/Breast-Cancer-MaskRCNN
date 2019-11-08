@@ -8,7 +8,6 @@ Given a mammography, the system is supposed to:
 An example is: ![mammo label example](https://github.com/xDarkLemon/Breast-Cancer-MaskRCNN/blob/master/pic/1.png)
 
 The code is based on the pytorch implementation of [Mask-RCNN](https://github.com/matterport/Mask_RCNN)
-;https://github.com/chevyng/Mammo_MaskRCNN 
 
 ## Dataset
 1. Download from [CBIS-DDSM](https://wiki.cancerimagingarchive.net/display/Public/CBIS-DDSM#7890e3c70fcf46819474c918d9817b1d)
